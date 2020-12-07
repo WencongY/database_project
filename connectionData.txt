@@ -1,9 +1,0 @@
-<?php
-
-$server = "ix.cs.uoregon.edu";
-$dbname ="strava";
-$user = "wyou";
-$pass = "wyou551";
-$port="3754";
-
-?>
