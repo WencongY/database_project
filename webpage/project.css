@@ -1,0 +1,85 @@
+h1, h2, h3 {
+  text-align: center;
+}
+p {
+  color: white;
+}
+
+h1.a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 65px;
+  color: rgb(238, 216, 17);
+}
+h2.a {
+  font-family: Monaco, Monospace;
+  font-size: 35px;
+  color: white;
+  text-align: left;
+  margin: 20px, 20px, 20px, 20px;
+}
+
+h3.a {
+  font-family: Monaco, Monospace;
+  font-size: 25px;
+  color: white;
+  text-align: left;
+  margin: 20px, 20px, 20px, 20px;
+}
+
+
+ul.a {
+  font-family: Monaco, Monospace;
+  font-size: 20px;
+  color: white;
+}
+
+section.a {
+  background: url("images/runner4.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 25px 50px 75px 100px;
+}
+
+section.b {
+  background: rgb(57, 155, 176);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 25px 50px 75px 100px;
+}
+
+section.c {
+  background: rgb(38, 127, 191);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 25px 50px 75px 100px;
+}
+
+section.d {
+  background: rgb(11, 69, 157);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 25px 50px 75px 100px;
+}
+
+
+.headerdiv {
+  border: 20px;
+  width: auto;
+  background-color: rgba(125, 161, 159, 0.4);
+}
+
+footer {
+  background: rgb(5, 30, 77);
+  padding: 25px 50px 75px 100px;
+}
+
+form {
+  text-align: center;
+}
+
+.formdiv {
+  color: white;
+  border: 10px;
+  background-color: rgba(97, 105, 103, 0.72);
+}
