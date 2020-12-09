@@ -1,8 +1,5 @@
-# database_project
-activity types:
-Run
-Ride
-Hike
-AlpineSki
-NordicSki
-Workout
+# Strava Database Project
+## CIS551 Database Processing Project
+### authors: Wencong You, Kaley Chicoine
+
+This repository contains scripts for data scrapping, project UI web design, and SQL queries, and also raw datasets.
