@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Strava Program</title>
+  <link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+  <section class="a">
+      <h1 class="a">Strava Database</h1>
+      <div class="headerdiv">
+        <br><br>
+        <h2 class="a"><i>A top</i></h2>
+
+        <ul class="a">
+          <li>application for tracking and analyzing every aspect of human exercies</li>
+          <li>social platform for sharing your adventure and connecting with others</li>
+          <li>tool for exploring new routes and completing with your community</li>
+        </ul>
+        <br><br><br><br>
+      </div>
+
+  </section>
+
+  <section class="b">
+      <h3 class="a">Athlete Stats</h3>
+      <p>Check out the list of most popular activities among all athletes in descending order:</p>
+      <form action="p5.php" method="POST">
+      <input type="submit" name="button1" class="button" value="click">
+      </form>
+
+      <p>Check out the ranking of athletes' total active time and average rest time:</p>
+      <form action="p6.php" method="POST">
+      <input type="submit" name="button2" class="button" value="click">
+      </form>
+
+      <p>Search by an athlete's first name for their total distance per sport, such as <em>Kaley, Zach</em>:</p>
+      <form action="p2.php" method="POST">
+
+      <input type="text" name="fname"> <br>
+      <input type="submit" value="submit">
+      <input type="reset" value="erase">
+      </form>
+
+
+      <!-- <p>Wanna know your performance compared to the average on a specific segment? Type in the segment name to reveal its id and the average grade, such as <em>South track, Oak St Climb, The Last Push</em>:</p>
+      <form action="project1.php" method="POST">
+
+      <input type="text" name="Name">
+      <input type="double" name="AverageGrade"> <br>
+      <input type="submit" value="submit">
+      <input type="reset" value="erase">
+      </form> -->
+
+      <!-- <br>
+      <p>Search by last name for user ID and other information, such as <em>Chicoine, Schmidt</em>:</p>
+      <form action="project2.php" method="POST">
+
+      <input type="text" name="lname"> <br>
+      <input type="submit" value="submit">
+      <input type="reset" value="erase">
+      </form> -->
+
+  </section>
+
+  <section class="c">
+      <h3 class="a">Gear Stats</h3>
+      <p>Total active time of an athlete supported by a specific gear. Search by last name and gear ID to reveal the activity type and total active time, such as <em>(Chicoine, Merrell All Out Peak) and (Schmidt, Gravel Bike)</em>:</p>
+      <form action="p3.php" method="POST">
+
+      <input type="text" name="lname">
+      <input type="double" name="Name"> <br>
+      <input type="submit" value="submit">
+      <input type="reset" value="erase">
+      </form>
+      <br>
+
+      <p>Total Active time per gear per sport. Search by last name, such as <em>Chicoine, Schmidt</em>:</p>
+      <form action="p4.php" method="POST">
+
+      <input type="text" name="lname"> <br>
+      <input type="submit" value="submit">
+      <input type="reset" value="erase">
+      </form>
+      <br>
+
+      <p>Stats for bikes/shoes/all gears owned by an athlete. Search by last name, such as <em>Chicoine, Schmidt</em>:</p>
+      <form action="p7.php" method="POST">
+
+      <p>For bikes:  <input type="text" name="lname"> </p>
+      <input type="submit" value="submit">
+      <input type="reset" value="erase">
+      </form>
+      <br>
+
+      <!-- <p>Stats for shoes owned by an athlete. Search by last name, such as <em>Chicoine, Schmidt</em>:</p> -->
+      <form action="p8.php" method="POST">
+
+      <p>For shoes:  <input type="text" name="lname"> </p>
+      <input type="submit" value="submit">
+      <input type="reset" value="erase">
+      </form>
+      <br>
+
+      <!-- <p>Stats for all gears owned by an athlete. Search by last name, such as <em>Chicoine, Schmidt</em>:</p> -->
+      <form action="p9.php" method="POST">
+
+      <p>For gears:  <input type="text" name="lname"></p>
+      <input type="submit" value="submit">
+      <input type="reset" value="erase">
+      </form>
+      <br>
+
+  </section>
+
+
+  <section class="d">
+      <h3 class="a">Segment Stats</h3>
+      <!-- needs more work, cannot test yet -->
+      <p>Detailed segment information for a specific activity. Search by activity ID, such as <em>4203824718, 4213828889, 4434321633</em>:</p>
+      <form action="p10.php" method="POST">
+
+      <input type="int" name="ActivityId"> <br>
+      <input type="submit" value="submit">
+      <input type="reset" value="erase">
+      </form>
+
+      <br>
+      <!-- needs more work, cannot test yet -->
+      <p>Top 5 activities with most segments for a given athlete. Search by first name, such as <em>Kaley</em>:</p>
+      <form action="p11.php" method="POST">
+
+      <input type="text" name="fname"> <br>
+      <input type="submit" value="submit">
+      <input type="reset" value="erase">
+      </form>
+
+  </section>
+
+
+
+
+
+<footer>
+  <p>Database and website are maintained by <em>Kaley Chicoine</em> and <em>Wencong You</em>.</br>
+  Used for CIS 551 Database Processing Project Only.
+  </p>
+</footer>
+</body>
+
+</html>
